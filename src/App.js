@@ -1,24 +1,20 @@
 import React from 'react';
+
 import logo from './logo.svg';
+import Books from './components/books'
 import './App.css';
 
 function App() {
+  const [books, setBooks] = React.useState([])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <div className="Head">
+         <h1 className='Title'>BEST SELLER ALL TIMES </h1>
+         <input type='text' className="Search"></input>
+       </div>
+       <div className="Content">
+         <Books></Books>
+       </div>
     </div>
   );
 }

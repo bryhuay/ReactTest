@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #D9D6D5;
 }
 
 .App-logo {
@@ -23,7 +24,39 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.Head {
+  color:red;
+  float: left;
+  margin : 3%;
+  width: 100%;
+}
+.Title{
+  float: left;
+}
+.Search{
+  float: right;
+  margin-right: 6%;
+  margin-top: 2%;
+  height: 30px;
+  width: 350px;
+}
+.BookBorder{
+  border-style: solid;
+}
+.TitleItem{
+  float: left;
+  width: 100%;
+  margin-right: 3%;
+  margin-left: 3%;
+ 
+}
+.TitleItemText {
+  float: left;
+}
+.BookItem{
+  border:black;
+  border-style: solid;
+}
 .App-link {
   color: #61dafb;
 }
